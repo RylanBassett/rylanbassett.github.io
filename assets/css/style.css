@@ -1,3 +1,38 @@
-* {
-    color: red;
+#nameplate {
+    color: #C197D2;
+    border-left: solid 2px;
+    padding-left: 1em;
+    font-size: 3em;
 }
+
+nav {
+    padding: 1em;
+}
+
+nav a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .5em;
+    background-color: #613659;
+    border-left: solid white 2px;
+}
+
+nav a:hover {
+    color: #613659;
+    background-color: white;
+    border-color: #613659;
+}
+
+#featured {
+    width: 100%;
+}
+
+/* Color Scheme
+Dark Purple: #613659
+Pale Purple: #D3B1C2 
+Light Purple: #C197D2*/

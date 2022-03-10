@@ -1,19 +1,50 @@
 h1 {
     color: #403427;
-    font-weight: bold ;
+    font-weight: bold;
     font-family: 'Courier Prime', monospace;
     font-size: 3em;
     margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #403427;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: solid #836b51;
 }
 
 h3 {
     font-family: 'Courier Prime', monospace;
     font-style: italic;
 }
+
 img {
     padding-top: 20px;
 }
+
 .col-lg-3 img:hover {
-    transition-duration:.25s;
+    transition-duration: .25s;
     transform: scale(1.5);
+}
+
+@media (max-width: 450px) {
+    h2 .mobile {
+        visibility: visible;
+    }
+
+    h3 {
+        font-style: normal;
+    }
+
+    .nomobile {
+        display: none;
+    }
+}
+
+@media (min-width: 450px) {
+    .mobile {
+        visibility: hidden;
+    }
 }
