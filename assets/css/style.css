@@ -1,3 +1,15 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 100%;
+}
+
+.spacer {
+    height: 2em;
+}
+
 #nameplate {
     color: #C197D2;
     border-left: solid 2px;
@@ -5,13 +17,36 @@
     font-size: 3em;
 }
 
-nav {
-    padding: 1em;
+h1 {
+    color: #613659;
+    font-weight: 700;
+    border-left: solid #C197D2;
+    padding-left: 1em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.socials {
+    align-self: baseline;
+}
+
+.socials a {
+    text-decoration: none;
+    background-color: #C197D2;
+    color: #613659;
+    border-left: solid #C197D2 2px;
+    margin-right: 1em;
+    padding-left: .5em;
+}
+
+.socials a:hover {
+    background-color: white;
 }
 
 nav a {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     width: 100%;
     text-decoration: none;
@@ -19,20 +54,19 @@ nav a {
     font-weight: bold;
     padding: .5em;
     background-color: #613659;
-    border-left: solid white 2px;
+    border-left: solid #613659 2px;
 }
 
 nav a:hover {
     color: #613659;
     background-color: white;
-    border-color: #613659;
 }
 
-#featured {
-    width: 100%;
-}
+/* #featured {
+        width: 100%;
+    } */
 
 /* Color Scheme
 Dark Purple: #613659
 Pale Purple: #D3B1C2 
-Light Purple: #C197D2*/
+Light Purple: #C197D2 */
