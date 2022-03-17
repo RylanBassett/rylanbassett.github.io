@@ -2,20 +2,53 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     width: 100%;
 }
-.film{
+
+.film {
     background-color: black;
 }
-.film img{
+
+.film img {
     border: solid black 10px;
     width: 90%;
     display: block;
     margin: auto;
 }
+
 .spacer {
     height: 2em;
+}
+
+.clippy {
+    border-left: solid #C197D2;
+    padding-left: .5em;
+    margin-top: 2em;
+}
+
+.headline {
+    color: white;
+    font-size: 1.25em;
+    background-color: #613659;
+    padding-left: 1em;
+    border-left: solid #613659 2px;
+}
+
+.headline:hover {
+    background-color: white;
+}
+
+.headline a {
+    color: white;
+}
+
+.headline a:hover {
+    color: #613659;
 }
 
 #nameplate {
