@@ -65,6 +65,10 @@ h1 {
     padding-left: 1em;
 }
 
+#featured img {
+    width: 20px;
+}
+
 h2 {
     text-align: center;
 }
@@ -84,6 +88,11 @@ h2 {
 
 .socials a:hover {
     background-color: white;
+}
+
+#virtualresume {
+    font-size: x-large;
+    font-weight: bold;
 }
 
 nav a {
