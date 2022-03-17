@@ -5,7 +5,15 @@
 img {
     width: 100%;
 }
-
+.film{
+    background-color: black;
+}
+.film img{
+    border: solid black 10px;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
 .spacer {
     height: 2em;
 }
