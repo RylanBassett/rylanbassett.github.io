@@ -1,0 +1,136 @@
+body{
+    background-color: #080707;
+    color: #f5f5f5;
+}
+header{
+    height: 100vh;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+video {
+    width: 100%;
+}
+h1{
+    font-family: "Manrope", sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    text-transform:none;
+
+}
+.subhead{
+    display: inline;
+    background-color: #df4601;
+    padding: 1% 2%;
+}
+b{
+    font-size: 18px;
+    font-family: "Archivo", sans-serif;
+}
+a{
+    color:#f5f5f5;
+    text-decoration-color: #df4601;
+    font-weight: 600;
+}
+a:hover{
+    background-color: #f5f5f5;
+    color:#df4601
+}
+section{
+    width: 65%;
+    margin: 0 auto;
+    padding: 5% 0 5% 0;
+}
+.intro{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.graphic > iframe{
+    padding: 5%;
+    background-color: #fff;
+}
+.name{
+    text-transform: uppercase;
+    color: #df4601;
+}
+img{
+    width: 100%;
+}
+.caption{
+    font-size: .8em;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #d4c9c3;
+}
+h2{
+    background-color: #f5f5f5;
+    color:#080707;
+    margin: 5% 0 5% 0;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1.3px;
+}
+h3{
+    font-size: 1.1em;
+}
+blockquote , blockquote > p{
+    font-family: "Manrope", sans-serif;
+    background-color: #df4601;
+    text-align: center;
+    padding: 2%;
+}
+.quote{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.cite{
+    font-style: italic;
+    font-size: .8em;
+}
+.chart{
+    background-color: #fff;
+    padding: 5%;
+}
+.chart > .caption{
+    background-color: #fff
+}
+/* media queries to follow */
+
+@media (max-width: 450px) {
+    header{
+        margin-top: 50%;
+    }
+    section, footer{
+        width: 95%;
+    }
+    b{
+        font-size: 14px;
+    }
+    .caption{
+        font-size: .9em;
+    }
+}
+@media (max-width: 850px){
+    b{
+        font-size: 16px;
+    }
+    header{
+         margin-top: 25%;
+    }
+    .chart{
+        padding: 2%;
+    }
+}
+@media (max-width: 992px){
+    header{
+        text-align: center;
+    }
+    video{
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 1000px){
+    header{
+        margin: 15% 2% 0 0;
+    }
+}
